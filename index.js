@@ -3,7 +3,6 @@ const calcular = document.getElementById('calcular');
 
 const calcImc = (() => {
 
-
     const nome = document.getElementById('nome').value;
     const altura = document.getElementById('altura').value;
     const peso = document.getElementById('peso').value;
