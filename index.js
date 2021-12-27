@@ -41,24 +41,10 @@ const calcImc = (() => {
 
         }
 
-        resultado.textContent = `${nome} seu IMC é ${valorImc.toFixed(2)}, você está ${classificacao}. CONSEGUI ALELUIA!!!`
+        resultado.textContent = `${nome} seu IMC é ${valorImc.toFixed(2)}, você está ${classificacao}.`
       
     } else {
         resultado.textContent = 'Preencha todos os campos!!!'
     }
 })
 calcular.addEventListener('click', calcImc);
-
-
-//Não precisa de .value?
-//    const nome = document.getElementById('nome').value;
-//    const altura = document.getElementById('altura').value;
-//    const peso = document.getElementById('peso').value;
-//    const resultado = document.getElementById('resultado');
-//
-//    if (nome !== '' && altura !== '' && peso !== '') {
-//
-//        alert('preenchido')
-//    } else {
-//        alert('preencha todos os campos')
-//
